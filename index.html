@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Calorias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contador de Calorias:</h1>
+        <div class="input-section">
+            <input type="text" id="food-input" placeholder="Digite o alimento">
+            <input type="number" id="weight-input" placeholder="Peso (g)">
+            <button id="add-btn">Adicionar</button>
+        </div>
+        <div id="food-list" class="food-list"></div>
+        <div class="summary">
+            <p>Total de Calorias Consumidas: <span id="total-calories">0</span></p>
+            <p>Meta Diária de Calorias: <span id="daily-goal">2000</span></p>
+            <p>Consumo de Água: <span id="water-intake">0</span> ml</p>
+            <button id="water-btn">Beber 250ml de Água</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
